@@ -11,7 +11,7 @@ const Signup = () => {
 
   return (
     <Box maxW="md" mx="auto" mt={8} p={4}>
-      <Heading size="lg" mb={4}>Register</Heading>
+      <Heading size="lg" mb={4}>Sign Up</Heading>
       <form onSubmit={handleSubmit}>
         <FormControl id="email" mb={4}>
           <FormLabel>Email:</FormLabel>
@@ -21,7 +21,7 @@ const Signup = () => {
           <FormLabel>Password:</FormLabel>
           <Input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </FormControl>
-        <Button type="submit" colorScheme="red">Register</Button>
+        <Button type="submit" colorScheme="green">Register</Button>
       </form>
     </Box>
   );
